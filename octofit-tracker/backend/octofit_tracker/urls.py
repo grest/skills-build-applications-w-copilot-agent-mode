@@ -1,3 +1,10 @@
+"""
+REST API endpoints are served under the /api/ prefix.
+For Codespace compatibility, endpoints are accessible at:
+    https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
+Example: https://$CODESPACE_NAME-8000.app.github.dev/api/activities/
+Do not hardcode $CODESPACE_NAME; it is set by the environment.
+"""
 """octofit_tracker URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
